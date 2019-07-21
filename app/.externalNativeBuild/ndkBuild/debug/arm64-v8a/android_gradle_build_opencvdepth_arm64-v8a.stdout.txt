@@ -1,0 +1,1 @@
+make: `F:/ming_android/studio_ws/Ricoh/opencvdepth/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libopencvdepth.so' is up to date.

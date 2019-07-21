@@ -1,0 +1,3 @@
+[x86] Compile++      : opencvdepth <= sample.cpp
+[x86] Prebuilt       : libopencv_java3.so <= F:/ming_android/studio_ws/Ricoh/opencvdepth/OpenCV-android-sdk/sdk/native/jni/../libs/x86/
+[x86] SharedLibrary  : libopencvdepth.so

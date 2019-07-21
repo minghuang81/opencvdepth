@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "F:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\Android.mk",
+    "F:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\sager\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dF:/ming_android/studio_ws/Ricoh/opencvdepth/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "opencvdepth-debug-x86": {
+      "artifactName": "opencvdepth",
+      "buildCommand": "C:\\Users\\sager\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dF:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\Android.mk NDK_APPLICATION_MK\u003dF:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\Application.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003dF:/ming_android/studio_ws/Ricoh/opencvdepth/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dF:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\build\\intermediates\\ndkBuild\\debug\\lib F:/ming_android/studio_ws/Ricoh/opencvdepth/app/build/intermediates/ndkBuild/debug/obj/local/x86/libopencvdepth.so",
+      "abi": "x86",
+      "output": "F:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libopencvdepth.so"
+    }
+  }
+}
