@@ -19,48 +19,53 @@ This will install the plugin .apk package to ThetaV cam and run it there.
 
 2) The plugin requires android permission on device storage access.
 If storage permission is missing, Android Studio logcat would show:
-	 D/THETADEBUG: WARNING: You Need to enable storage permission
-	 D/THETADEBUG: MyLog new dbgFile : /storage/emulated/0/DCIM/debug.txt
-	 D/THETADEBUG: MyLog crash: java.io.FileNotFoundException: /storage/emulated/0/DCIM/debug.txt (Permission denied); reset dbgFile
+```
+     D/THETADEBUG: WARNING: You Need to enable storage permission
+     D/THETADEBUG: MyLog new dbgFile : /storage/emulated/0/DCIM/debug.txt
+     D/THETADEBUG: MyLog crash: java.io.FileNotFoundException: /storage/emulated/0/DCIM/debug.txt (Permission denied); reset dbgFile
+```    
 In that case, use Vysor to toggle the permissions on in camera's Android Settings>Apps>opencvdepth>App permision.
-
 
 ![fig20](images/fig20.png)
 
 If storage permission is correctly granted, Android Studio logcat would show:
+```
 	D/THETADEBUG: storage permission is granted
 	D/THETADEBUG: MyLog new dbgFile : /storage/emulated/0/DCIM/debug.txt
+```
 
 3) for end-user to use the plugin and to give the control over the camera's button to the plugin, the plugin must be selected using windows (or phone) application "RICOH THETA":
 ![fig40](images/fig40.png)
 
 4) To run the plugin opencvdepth after it has been installed
    - turn on the camera if it is sleeping
-   - Short-press camera's side "Mode" button untill the still camera is selected, if not already selected by default.
+   - Short-press camera's side "Mode" button (beneath WiFi button) untill the still camera is selected, if not already selected by default.
    This step is important because if video camera is selected before entering the plugin, the plugin would not work.
-   
+![real camera](images/camera.png)
+
 5) long-press camera's side "Mode" button untill the indicator changes from blue to white.
-   The white LED indicates that the plugin is selected and is running and is the one reponding to buttons.
-   Android Studio logcat will show:
+The white LED indicates that the plugin is selected and is running and is the one reponding to buttons.
+Android Studio logcat will show:
+```
 		D/THETADEBUG: storage permission is granted
 		D/THETADEBUG: set key callback
 		D/THETADEBUG: onResume Ap is NOT Connected 
 		D/THETADEBUG: OpenCV version is: 3.4.5
-		
-6) Take a pair of stereo-images with ThetaV mounted on tripod: 
-	 - Press camera shutter for the first one, hide yourself when camera is beeping 
-	   Android Studio logcat shows:
-				D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
-				D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010056.JPG
+```
 
+6) Take a pair of stereo-images with ThetaV mounted on tripod: 
+Press camera shutter for the first one, hide yourself when camera is beeping. Android Studio logcat shows:
+```
+D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
+D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010056.JPG
+```
 ![R0010056](images/R0010056.JPG)
 
-	 - Displace the camera around 10 cms to the side, press camera shutter again for the second one,
-	   hide yourself when camera is beeping as for the 1st picture.
-		 Android Studio logcat shows another line of: 
-		    D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
-		    D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010057.JPG
-
+Displace the camera around 10 cms to the side, press camera shutter again for the second one, hide yourself when camera is beeping as for the 1st picture. Android Studio logcat shows another line of:
+```
+D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
+D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010057.JPG
+```
 ![R0010057](images/R0010057.JPG)
 
 7) Extract the depth imformation from the latest two pictures.
