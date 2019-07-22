@@ -20,9 +20,9 @@ This will install the plugin .apk package to ThetaV cam and run it there.
 2) The plugin requires android permission on device storage access.
 If storage permission is missing, Android Studio logcat would show:
 ```
-     D/THETADEBUG: WARNING: You Need to enable storage permission
-     D/THETADEBUG: MyLog new dbgFile : /storage/emulated/0/DCIM/debug.txt
-     D/THETADEBUG: MyLog crash: java.io.FileNotFoundException: /storage/emulated/0/DCIM/debug.txt (Permission denied); reset dbgFile
+	D/THETADEBUG: WARNING: You Need to enable storage permission
+	D/THETADEBUG: MyLog new dbgFile : /storage/emulated/0/DCIM/debug.txt
+	D/THETADEBUG: MyLog crash: java.io.FileNotFoundException: /storage/emulated/0/DCIM/debug.txt (Permission denied); reset dbgFile
 ```    
 In that case, use Vysor to toggle the permissions on in camera's Android Settings>Apps>opencvdepth>App permision.
 
@@ -47,35 +47,35 @@ If storage permission is correctly granted, Android Studio logcat would show:
 The white LED indicates that the plugin is selected and is running and is the one reponding to buttons.
 Android Studio logcat will show:
 ```
-		D/THETADEBUG: storage permission is granted
-		D/THETADEBUG: set key callback
-		D/THETADEBUG: onResume Ap is NOT Connected 
-		D/THETADEBUG: OpenCV version is: 3.4.5
+	D/THETADEBUG: storage permission is granted
+	D/THETADEBUG: set key callback
+	D/THETADEBUG: onResume Ap is NOT Connected 
+	D/THETADEBUG: OpenCV version is: 3.4.5
 ```
 
 6) Take a pair of stereo-images with ThetaV mounted on tripod: 
 Press camera shutter for the first one, hide yourself when camera is beeping. Android Studio logcat shows:
 ```
-D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
-D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010056.JPG
+	D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
+	D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010056.JPG
 ```
 ![R0010056](images/R0010056.JPG)
 
 Displace the camera around 10 cms to the side, press camera shutter again for the second one, hide yourself when camera is beeping as for the 1st picture. Android Studio logcat shows another line of:
 ```
-D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
-D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010057.JPG
+	D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
+	D/THETADEBUG: KeyCallback() picture taken at URL: http://127.0.0.1:8080/files/150100525831424d4207f3c29a4ca400/100RICOH/R0010057.JPG
 ```
 ![R0010057](images/R0010057.JPG)
 
-7) Extract the depth imformation from the latest two pictures.
-   Press camera's side "WiFi on/off" button, R0010056.JPG and R0010057.JPG above, as an example,
-   are processed as one pair of stereo images and result in a depth-map R0010057_depth.JPG
-   Android Studio logcat trace:
-   D/THETADEBUG: KEYCODE_WLAN_ON_OFF: processImage(/storage/emulated/0/DCIM/100RICOH/R0010056.JPG,/storage/emulated/0/DCIM/100RICOH/R0010057.JPG)
-	 D/THETADEBUG: L img: ByteCnt 3612672,W 1344,H 672,RowBytes 5376,hasAlpha false,config ARGB_8888
-   D/THETADEBUG: byteBufferL.size = 903168
-   D/THETADEBUG: processImage() depth-map saved as picture at : /storage/emulated/0/DCIM/100RICOH/R0010057_depth.JPG 
+7) Extract the depth imformation from the latest two pictures. Press camera's side "WiFi on/off" button, R0010056.JPG and R0010057.JPG above, as an example, are processed as one pair of stereo images and result in a depth-map R0010057_depth.JPG.
+Android Studio logcat trace:
+```
+	D/THETADEBUG: KEYCODE_WLAN_ON_OFF: processImage(/storage/emulated/0/DCIM/100RICOH/R0010056.JPG,/storage/emulated/0/DCIM/100RICOH/R0010057.JPG)
+	D/THETADEBUG: L img: ByteCnt 3612672,W 1344,H 672,RowBytes 5376,hasAlpha false,config ARGB_8888
+	D/THETADEBUG: byteBufferL.size = 903168
+	D/THETADEBUG: processImage() depth-map saved as picture at : /storage/emulated/0/DCIM/100RICOH/R0010057_depth.JPG 
+```
 
 # Debug trace log
 
