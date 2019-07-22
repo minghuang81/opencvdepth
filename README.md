@@ -53,7 +53,7 @@ Android Studio logcat will show:
 	D/THETADEBUG: OpenCV version is: 3.4.5
 ```
 
-6) Take a pair of stereo-images with ThetaV mounted on tripod: 
+6) Take a pair of stereo-images with ThetaV mounted on tripod. 
 Press camera shutter for the first one, hide yourself when camera is beeping. Android Studio logcat shows:
 ```
 	D/THETADEBUG: onKeyDown keyCode=KeyReceiver.KEYCODE_CAMERA / 27
@@ -83,27 +83,15 @@ The log mecanism used in this project is very useful for customer in-field debug
 The messages are logged in a file on camera for later retrieval for debug. 
 However if ever the camera is connected to Android Studio through a USB cable,
 the debug messages are duplicated in both Android Studio logcat window and in the debug file.
-The debug file is located at /storage/emulated/0/DCIM/debug.txt as stated in logcat,
-it is seen from Android Studio Device File Explorer to be at: /sdcard/DCIM/debug.txt
+The debug file is located at:
+```
+	/storage/emulated/0/DCIM/debug.txt
+```
+as stated in logcat. The same file is visible and retrievable from Android Studio Device File Explorer to be at: 
+```
+	/sdcard/DCIM/debug.txt
+```
 
 ![fig30](images/fig30.png)
 
-* Use your mouse to press *Shutter* button. It will load an 
-image into `/sdcard/DCIM/100RICOH/`
-* Use your mouse to press the *Process* button. It will
-display an image processed with OpenCV to the emulator screen.
-
-## Using real camera
-
-* Press the shutter button to take a picture
-* After 4 seconds, press the Wi-Fi button to process the picture
-
-![real camera](images/camera.png)
-
-You can see the processed image in Vysor. This demo does not
-save the processed image to disk.
-
-The [no-camera-template](https://github.com/codetricity/no-camera-template)
- shows how to save the processed file
-to disk.
 
