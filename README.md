@@ -76,6 +76,7 @@ Android Studio logcat trace:
 	D/THETADEBUG: byteBufferL.size = 903168
 	D/THETADEBUG: processImage() depth-map saved as picture at : /storage/emulated/0/DCIM/100RICOH/R0010057_depth.JPG 
 ```
+![R0010057_depth](images/R0010057_depth.JPG)
 
 # Debug trace log
 
