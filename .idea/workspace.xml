@@ -21,7 +21,47 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="THETADEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd95f0b-bc69-4784-b69f-6639fd61ead1" name="Default Changelist" comment="" />
+    <list default="true" id="7cd95f0b-bc69-4784-b69f-6639fd61ead1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/etc/haarcascades/haarcascade_frontalcatface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/etc/haarcascades/haarcascade_frontalcatface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/etc/haarcascades/haarcascade_frontalcatface_extended.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/etc/haarcascades/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/etc/lbpcascades/lbpcascade_frontalcatface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/etc/lbpcascades/lbpcascade_frontalcatface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/java/src/org/opencv/android/CameraBridgeViewBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/java/src/org/opencv/android/CameraBridgeViewBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/android.toolchain.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/android.toolchain.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/include/opencv2/flann/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/include/opencv2/ml.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/include/opencv2/ml.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv_modules.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV-android-sdk/sdk/native/jni/include/opencv2/opencv_modules.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build_opencvdepth_x86.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/x86/android_gradle_build_opencvdepth_x86.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/x86/ndkBuild_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/x86/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/release/x86/ndkBuild_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jni/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/app/jni/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jni/sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/jni/functionsOpencv.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/opencvdepth/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/ming/opencvdepth/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/log/MyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ming/log/MyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/opencvdepth/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ming/opencvdepth/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/opencvdepth/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/ming/opencvdepth/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/license.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,59 +76,94 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/opencvdepth/MainActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ming/opencvdepth/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="260" column="67" selection-start-line="260" selection-start-column="67" selection-end-line="260" selection-end-column="67" />
+            <state relative-caret-position="229">
+              <caret line="180" column="31" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed4ca250cb71226fdf62a5185b71eea1/jars/classes.jar!/com/theta360/pluginlibrary/activity/PluginActivity.class">
+        <entry file="file://$PROJECT_DIR$/app/jni/functionsOpencv.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-277">
-              <caret line="196" column="66" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="66" />
+            <state relative-caret-position="3332">
+              <caret line="196" column="19" selection-start-line="196" selection-start-column="19" selection-end-line="196" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/license.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>applicationId</find>
+      <find>sample.cpp</find>
+      <find>getDepthImagePath</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/opencvdepth/MainActivity.java" />
+        <option value="$PROJECT_DIR$/license.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/license.html" />
+        <option value="$PROJECT_DIR$/app/jni/sample.cpp" />
+        <option value="$PROJECT_DIR$/app/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ming/opencvdepth/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="105" />
-    <option name="y" value="22" />
-    <option name="width" value="1789" />
+    <option name="y" value="20" />
+    <option name="width" value="1790" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
-      <pane id="AndroidView">
-        <subPane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="opencvdepth" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="opencvdepth" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="opencvdepth" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="release" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,6 +171,11 @@
     <property name="device.picker.selection" value="00186066" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ming_android\studio_ws\Ricoh\opencvdepth\app\src\main\assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,53 +265,73 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="18" width="1431" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="84" y="16" width="1432" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.17797229" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" />
-      <window_info active="true" anchor="bottom" id="Logcat" visible="true" weight="0.32934132" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32934132" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32934132" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32934132" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.66766465" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/log/MyLog.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ming/log/MyLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed4ca250cb71226fdf62a5185b71eea1/jars/classes.jar!/com/theta360/pluginlibrary/activity/PluginActivity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
+        <state relative-caret-position="-511">
           <caret line="196" column="66" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/opencvdepth/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ming/opencvdepth/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="260" column="67" selection-start-line="260" selection-start-column="67" selection-end-line="260" selection-end-column="67" />
+        <state relative-caret-position="229">
+          <caret line="180" column="31" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/jni/functionsOpencv.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="196" column="19" selection-start-line="196" selection-start-column="19" selection-end-line="196" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/license.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -689,12 +689,12 @@ public:
     estimate of the test set error is minimal.
 
     If there is no need to optimize a parameter, the corresponding grid step should be set to any
-    value less than or equal to 1. For example, to avoid optimization in gamma, set `gammaGrid.step
+    value less than or equal to 1. For ming, to avoid optimization in gamma, set `gammaGrid.step
     = 0`, `gammaGrid.minVal`, `gamma_grid.maxVal` as arbitrary numbers. In this case, the value
     `Gamma` is taken for gamma.
 
     And, finally, if the optimization in a parameter is required but the corresponding grid is
-    unknown, you may call the function SVM::getDefaultGrid. To generate a grid, for example, for
+    unknown, you may call the function SVM::getDefaultGrid. To generate a grid, for ming, for
     gamma, call `SVM::getDefaultGrid(SVM::GAMMA)`.
 
     This function works for the classification (SVM::C_SVC or SVM::NU_SVC) as well as for the
@@ -832,7 +832,7 @@ public:
     enum Types {
         /** A scaled identity matrix \f$\mu_k * I\f$. There is the only
         parameter \f$\mu_k\f$ to be estimated for each matrix. The option may be used in special cases,
-        when the constraint is relevant, or as a first step in the optimization (for example in case
+        when the constraint is relevant, or as a first step in the optimization (for ming in case
         when the data is preprocessed with PCA). The results of such preliminary estimation may be
         passed again to the optimization procedure, this time with
         covMatType=EM::COV_MAT_DIAGONAL. */
@@ -1127,7 +1127,7 @@ public:
     /** @brief The array of a priori class probabilities, sorted by the class label value.
 
     The parameter can be used to tune the decision tree preferences toward a certain class. For
-    example, if you want to detect some rare anomaly occurrence, the training base will likely
+    ming, if you want to detect some rare anomaly occurrence, the training base will likely
     contain much more normal cases than anomalies, so a very good classification performance
     will be achieved just by considering every case as normal. To avoid this, the priors can be
     specified, where the anomaly probability is artificially increased (up to 0.5 or even
@@ -1924,7 +1924,7 @@ public:
 \****************************************************************************************/
 
 #ifdef CV_DOXYGEN
-/** @brief This class declares example interface for system state used in simulated annealing optimization algorithm.
+/** @brief This class declares ming interface for system state used in simulated annealing optimization algorithm.
 
 @note This class is not defined in C++ code and can't be use directly - you need your own implementation with the same methods.
 */

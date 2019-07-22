@@ -43,7 +43,7 @@
 #     You need native port of make to build your project.
 #     Android NDK r7 (and newer) already has make.exe on board.
 #     For older NDK you have to install it separately.
-#     For example, this one: http://gnuwin32.sourceforge.net/packages/make.htm
+#     For ming, this one: http://gnuwin32.sourceforge.net/packages/make.htm
 #
 #   $ SET ANDROID_NDK=C:\absolute\path\to\the\android-ndk
 #   $ mkdir build && cd build

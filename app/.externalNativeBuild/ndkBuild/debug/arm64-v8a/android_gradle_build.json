@@ -14,7 +14,7 @@
       "artifactName": "opencvdepth",
       "files": [
         {
-          "src": "F:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\sample.cpp",
+          "src": "F:\\ming_android\\studio_ws\\Ricoh\\opencvdepth\\app\\jni\\functionsOpencv.cpp",
           "flags": "-target aarch64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Users/sager/AppData/Local/Android/Sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -I\"F:/ming_android/studio_ws/Ricoh/opencvdepth/OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"F:/ming_android/studio_ws/Ricoh/opencvdepth/OpenCV-android-sdk/sdk/native/jni/include\" -IC:/Users/sager/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -IC:/Users/sager/AppData/Local/Android/Sdk/ndk-bundle/build//../sources/cxx-stl/llvm-libc++abi/include -IF:/ming_android/studio_ws/Ricoh/opencvdepth/app/jni -std\u003dc++11 -frtti -fexceptions -DANDROID -fPIC -DANDROID -fsigned-char -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
         }
       ],

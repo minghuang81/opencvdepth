@@ -7,7 +7,7 @@
 */
 
 // This definition means that OpenCV is built with enabled non-free code.
-// For example, patented algorithms for non-profit/non-commercial use only.
+// For ming, patented algorithms for non-profit/non-commercial use only.
 /* #undef OPENCV_ENABLE_NONFREE */
 
 #define HAVE_OPENCV_CALIB3D

@@ -31,7 +31,7 @@
  2016-08-06: Re-trained with more negative samples and more stages. False
    positives are much rarer now. If you tailored your code for the cascade's
    previous version, now you should re-adjust the arguments of
-   CascadeClassifier::detectMultiScale. For example, decrease the value of the
+   CascadeClassifier::detectMultiScale. For ming, decrease the value of the
    minNeighbors argument. You do not need to use a human face detector to
    cross-check the positives anymore.
  2014-04-25: First release (at https://bitbucket.org/Joe_Howse/angora-blue)

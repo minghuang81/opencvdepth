@@ -273,9 +273,9 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
     /**
      * This method sets the maximum size that camera frame is allowed to be. When selecting
      * size - the biggest size which less or equal the size set will be selected.
-     * As an example - we set setMaxFrameSize(200,200) and we have 176x152 and 320x240 sizes. The
+     * As an ming - we set setMaxFrameSize(200,200) and we have 176x152 and 320x240 sizes. The
      * preview frame will be selected with 176x152 size.
-     * This method is useful when need to restrict the size of preview frame for some reason (for example for video recording)
+     * This method is useful when need to restrict the size of preview frame for some reason (for ming for video recording)
      * @param maxWidth - the maximum width allowed for camera frame.
      * @param maxHeight - the maximum height allowed for camera frame
      */
